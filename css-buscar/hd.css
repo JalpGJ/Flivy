@@ -1,0 +1,125 @@
+.head {
+    background-image: url(../Images/Buscar-Background@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px 10px 0 10px;
+    height: 70px;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 74px;
+}
+.header__search {
+    display: flex;
+    margin: auto 0 ;
+    margin-right: 50px;
+    list-style: none;
+}
+.header__search a {
+    margin-left: 51px;
+    font-size: 2.4rem;
+    color: var(--white);
+    font-weight: 500;
+    text-decoration: none;
+}
+.header__menu {
+    display: none;
+}
+.header__logo {
+    height: 58px;
+    margin-left: 50px;
+}
+.header__input {
+    width: 800px;
+    height: 76px;
+    margin-top: 100px;
+}
+.header__input--search {
+    width: 800px;
+    height: 76px;
+    font-size: 1.7rem;
+    padding-left: 30px;
+}
+::placeholder {
+    font-size: 2.4rem;
+}
+.header__input--icon {
+    width: 50px;
+    height: 50px;
+    bottom: 12px;
+    left: 710px;
+}
+.header__input--icon img {
+    width: 25px;
+    height: 25px;
+}
+h3 {
+    font-size: 3.4rem;
+    margin-left: 74px;
+    margin-top: 29.8px;
+    margin-bottom: 39.7px;
+}
+.card {
+    height: 334.4px;
+    width: 384.8px;
+    margin-bottom: 30px;
+}
+
+.card__background {
+    height: 216.5px;
+    width: 384.8px;
+    display: flex;
+    justify-content: center;
+}
+.card__background--img {
+    height: 216.5px;
+    width: 384.8px;
+}
+.card__description {
+    height: 117.9px;
+    width: 384.8px;
+}
+.card__background--details {
+    height: 23.4px;
+    width: 356.4px;
+    bottom: 175px;
+}
+.background__score img {
+    width: 158.33px;
+    height: 22.72px;
+}
+.background__score p {
+    font-size: 1.7rem;
+}
+.background__price p {
+    font-size: 1.7rem;
+}
+.background__price img {
+    width: 13.26px;
+    height: 23.4px;
+}
+.card__description p {
+    font-size: 1.98rem;
+}
+.card__description-location p {
+    font-size: 1.7rem;
+}
+.card__description-location img {
+    width: 17.69px;
+    height: 25.27px;
+}
+.card__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

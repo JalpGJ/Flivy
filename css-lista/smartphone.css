@@ -1,0 +1,160 @@
+:root {
+    --white:#FFFFFF;
+    --orange:#FF6437;
+    --soft-red:#F54B64;
+    --soft-orange:#F78361;
+    --text-grey:#707070;
+    --black:#20242F;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #f6f6f6;
+}
+.head {
+    background-image: url(../Images/Lista-0@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    height: 70px;
+    align-items: center;
+}
+.header__logo {
+    height: 29px;
+    margin-left: 10px;
+}
+.header__search {
+    display: none;
+}
+.header__menu {
+    margin-right: 10px;
+}
+.header__input {
+    width: 288px;
+    height: 30px;
+    margin: 20px auto;
+    position: relative;
+}
+.header__input--search {
+    width: 288px;
+    height: 30px;
+    outline: none;
+    border-radius: 40px;
+    border: none;
+    padding-left: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+::placeholder {
+    color: var(--text-grey);
+}
+.header__input--icon {
+    background-color: var(--orange);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 260px;
+}
+.header__input--icon img {
+    height: 11px;
+}
+h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+    color: var(--black);
+}
+/* main { */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* margin: 0 auto; */
+/* } */
+.card {
+    width: 288px;
+    height: 250px;
+    /* margin-bottom: 18px; */
+    box-shadow: 0 4px 8px var(--text-grey);
+    border-radius: 6px;
+    margin: 0 auto 18px auto ;
+    text-decoration: none;
+    color: var(--black);
+}
+.card__background {
+    height: 250px;
+    border-radius: 6px 6px 6px 6px;
+    position: relative;
+    overflow: hidden; /* Esconde lo que se sale del contenedor */
+}
+.card__background--img {
+    height: 250px;
+    width: 288px;
+}
+.card__background--details {
+    display: flex;
+    height: 26px;
+    width: 288px;
+    align-items: flex-end;
+    padding: 0 10px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+}
+.background__score {
+    width: 130px;
+    display: flex;
+}
+.background__score p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-left: 6px;
+}
+.background__score img {
+    height: 16px;
+    width: 91px;
+}
+.background__price {
+   display: flex;
+   align-items: center;
+}
+.background__price p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-left: 6px;
+ }
+.background__price img {
+    height: 17.5px;
+    width: 9px;
+}
+.card__background--Title {
+    position: absolute;
+    color: var(--white);
+    font-size: 2.6rem;
+    font-weight: bold;
+    bottom: 30px;
+    margin-left: 10px;
+}

@@ -1,0 +1,14 @@
+.login__container {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+    color: white;
+    padding: 56px 56px 24px 56px;
+    /* min-height: 700px; */
+    height: 480px;
+    width: 418px;
+    /* Truco brutal para espaciar toda la seccion */
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    flex-direction: column;
+}

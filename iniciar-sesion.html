@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iniciar Sesión</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css-iniciar/smartphone.css">
+    <!-- <link rel="stylesheet" href="/css-iniciar/smartphone.css" media="(max-width: 768px)"> -->
+    <link rel="stylesheet" href="./css-iniciar/tablet.css" media="(min-width: 768px)" >
+    <link rel="stylesheet" href="./css-iniciar/styles.css" media="(min-width: 1200px)">
+    <link rel="stylesheet" href="./css-iniciar/hd.css" media="(min-width: 1600px)">
+    <link rel="icon" href="./icons/Unión 2.ico">
+
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img src="./Images/Logo.png" alt="Logo de Flivy" class="header__logo"></a>
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2>Inicia sesión</h2>
+            <form class="login__container--form">
+                <input class="input" type="text" placeholder="Correo">
+                <input class="input" type="password" placeholder="Contraseña">
+                <button class="button">Iniciar sesión</button>
+                <div class="login__container--remember-me">
+                    <label>
+                        <input type="checkbox" id="cbox1" value="checkbos">Recuerdame
+                    </label>
+                    <a href="">Olvide mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__container--social-media">
+                <div class="login__container--icons">
+                    <div class="login__container--red"><img src="./icons/Icon-Google@2x.png" alt="Google icon">
+                    </div>
+                    Inicia sesión con Google
+                </div>
+                <div class="login__container--icons">
+                    <div class="login__container--red"><img src="./icons/Icon - Facebook@2x.png" alt="Facebook icon" class="icon-facebook">
+                    </div>
+                    Inicia sesión con Facebook
+                </div>
+            </section>
+            <p class="login__container--register">No tienes ninguna cuenta <a href="">Regístrate</a></p>
+        </section>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+:root {
+    --white:#FFFFFF;
+    --orange:#FF6437;
+    --soft-red:#F54B64;
+    --soft-orange:#F78361;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    /* background-image: url(/Images/Grupo\ 85@2x.jpg); */
+    background-image: url(../Images/fondo.jpg);
+    background-position: center  /* -110px */;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px 10px 0 10px;
+    height: 70px;
+    align-items: center;
+}
+.header__logo {
+    height: 58px;
+    margin-left: 50px;
+}
+.header__search {
+    display: flex;
+    margin: auto 0 ;
+    margin-right: 50px;
+    list-style: none;
+}
+.header__search a {
+    margin-left: 51px;
+    font-size: 2.4rem;
+    color: var(--white);
+    font-weight: 500;
+    text-decoration: none;
+}
+.header__menu {
+    display: none;
+}
+main {
+    margin-top: 184px ;
+    margin-left: 90.72px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main__title {
+    font-size: 7.2rem;
+    color: var(--white);
+}
+.main__subtitle {
+    font-size: 3.2rem;
+    color: var(--white);
+    margin-top: 30px;
+    font-weight: 500;
+}
+.main__button {
+    background-color: var(--orange);
+    width: 210px ;
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 32px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.main__button:hover {
+    cursor: pointer;
+}
+.main__button p {
+    color: var(--white);
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 43.2px;
+}
+.footer__icons {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    align-items: center;
+}
+.footer__instagram {
+    width: 40px;
+    height: 40px;
+}
+.footer__facebook {
+    width: 20px;
+    height: 37px;
+}
+.footer__twitter {
+    width: 45px;
+    height: 36px;
+}

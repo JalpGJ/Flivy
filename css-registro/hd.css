@@ -1,0 +1,198 @@
+:root {
+    --white:#FFFFFF;
+    --orange:#FF6437;
+    --soft-red:#F54B64;
+    --soft-orange:#F78361;
+    --text-grey:#707070;
+    --black:#20242F;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-image: url(../Images/Background-iniciar@2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    height: 70px;
+    align-items: center;
+}
+.header__logo {
+    height: 41.76px;
+    margin-left: 50px;
+}
+.header__search {
+    display: flex;
+    margin: auto 0 ;
+    margin-right: 50px;
+    list-style: none;
+}
+.header__search a {
+    margin-right: 51px;
+    font-size: 1.7rem;
+    color: var(--white);
+    font-weight: 500;
+    text-decoration: none;
+}
+.header__menu {
+    display: none;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 0 30px; */
+    /* min-height: calc(100vh - 200px); */
+}
+  
+.login__container {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+    color: white;
+    padding: 56px 56px 24px 56px;
+    /* min-height: 700px; */
+    height: 838px;
+    width: 589px;
+    /* Truco brutal para espaciar toda la seccion */
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    flex-direction: column;
+
+}
+  
+
+.login__container--form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__container--form button {
+    font-size: 2.8rem;
+    width: 429px;
+    height: 70px;
+}
+  
+.login__container--form label {
+    font-size: 1.4rem;
+}
+  
+.login__container--remember-me {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+  
+.login__container--remember-me a {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+  
+.login__container--remember-me a:hover {
+    /* Cuando pongo el mouse sobre "Olvide mi contraseña" se pone la linea */
+    text-decoration: underline;
+}
+  
+.login__container--social-media > div {
+    /* Coge todos los divs del social media */
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+  
+.login__container--social-media > div > img {
+    /* Coge todas las imagenes que esten dentro de todos los divs */
+    width: 20px;
+    margin-right: 10px;
+}
+  
+.login__container--register {
+    font-size: 1.4rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.login__container--register a {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.login__container--register a:hover {
+    text-decoration: underline;
+}
+  
+.input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    outline: none;
+    /* Cuando presiono el input para que no aparesca el recuadro azul */
+    height: 50px;
+    width: 428px;
+}
+  
+::placeholder {
+    color: white;
+    font-size: 2.4rem;
+}
+  
+.button {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--orange);
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.9rem;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* Coloca espacio entre las letras */
+    margin: 10px 0;
+}
+.login__container h2 {
+    font-size: 4rem;
+}
+/* .login__container--social-media .icon-facebook {
+    width: 10px;
+    margin-right: 25px;
+}
+.login__container--social-media__facebook {
+    margin-left: 9px;
+} */
+.login__container--red {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}

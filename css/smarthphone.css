@@ -1,0 +1,135 @@
+:root {
+    --white:#FFFFFF;
+    --orange:#FF6437;
+    --soft-red:#F54B64;
+    --soft-orange:#F78361;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background-image: url(../Images/fondo.jpg);
+    background-position: center  /* -110px */;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    height: 70px;
+    align-items: center;
+}
+.header__logo {
+    height: 29px;
+    margin-left: 10px;
+}
+.header__search {
+    position: absolute;
+    margin: 0;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    top: 20vh;
+    left: 40vw;
+    display: none;
+}
+.header__menu {
+    margin-right: 10px;
+}
+/* .header__menu:hover ul, ul:hover { Quiere decir que al hacerle hover al .header__menu apareceran los ul y que ademas si yo le hago hover a los ul, tambien se van a quedar quietos y no van a desaparecer
+    display: flex;   
+} */
+.header__search li {
+    margin-bottom: 10px;
+}
+.header__search a {
+    margin: 0;
+    font-size: 1.7rem;
+    color: var(--white);
+    font-weight: 500;
+    text-decoration: none;
+}
+.header__menu {
+    display: block;
+    position: relative;
+}
+main {
+    /* margin-top: 50px ;
+    margin-left: 20px; */
+    margin: 50px auto 0 auto;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+}
+.main__title {
+    font-size: 3rem;
+    color: var(--white);
+    text-align: center;
+}
+.main__subtitle {
+    font-size: 1.6rem;
+    color: var(--white);
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.main__button {
+    background-color: var(--orange);
+    width: 151px ;
+    height: 36px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 32px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.main__button:hover {
+    cursor: pointer;
+}
+.main__button p {
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+footer {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 23.2px;
+    justify-content: center;
+}
+.footer__icons {
+    width: 187px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+}
+.footer__instagram {
+    width: 28.8px;
+    height: 28.8px;
+}
+.footer__facebook {
+    width: 14.5px;
+    height: 27.23px;
+}
+.footer__twitter {
+    width: 32.99px;
+    height: 26.31px;
+}
